@@ -1,0 +1,328 @@
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+section {
+  margin: 20px 5px;
+}
+.fa {
+  padding: 10px;
+  font-size: 1px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-right: 15px;
+  transition: ease all 0.5s;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #ffffff;
+  color: #002142;
+}
+
+.fa-twitter {
+  background: #ffffff;
+  color: #002142;
+}
+
+.fa-instagram {
+  background: #ffffff;
+  color: #002142;
+}
+
+h1 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 30px;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 35px;
+  -webkit-text-stroke: 1px #ffffff;
+  color: transparent;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+  font-style: italic;
+  margin: 0;
+}
+
+/* BILLBOARD */
+.billboard {
+  background-color: #002142;
+  color: #ffffff;
+  height: 250px;
+  width: 970px;
+  position: relative;
+  display: flex;
+}
+
+#logo {
+  margin: 15px;
+}
+
+#billboard-title {
+  margin: 15px 0 5px 0;
+  width: 233px;
+}
+
+#billboard-title h1,
+h2,
+p {
+  margin: 0 0 14px 15px;
+}
+
+.shop-button {
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+  color: #002142;
+  padding: 10px 50px;
+  text-decoration: none;
+
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 5px 0 15px 15px;
+
+  transition: ease all 0.5s;
+}
+
+.shop-button:hover {
+  transform: scale(1.05);
+  background-color: #194c80;
+  color: #ffffff;
+}
+
+.socials {
+  position: absolute;
+  bottom: 15px;
+  left: 45%;
+}
+
+#dots-1 {
+  position: absolute;
+  right: 250px;
+}
+
+#img-1 {
+  right: 0;
+  position: absolute;
+  z-index: 2;
+}
+
+/* MPU ADVERT */
+
+.mpu {
+  background-color: #a33e3c;
+  color: #ffffff;
+  height: 250px;
+  width: 300px;
+  padding: 0 15px;
+  position: relative;
+  display: flex;
+}
+
+.mpu h1 {
+  font-size: 16px;
+  margin: 0 0 2px 0;
+}
+
+.mpu h2 {
+  font-size: 20px;
+  margin: 0 0 2px 0;
+}
+
+.mpu p {
+  font-size: 12px;
+  margin: 0 0 2px 0;
+}
+
+#mpu-logo {
+  margin: 2px 0;
+}
+#mpu-logo img {
+  width: 26px;
+}
+
+#img-2 {
+  width: 241px;
+  z-index: 2;
+  position: absolute;
+}
+#dots-2 {
+  position: absolute;
+  right: 10%;
+  bottom: 25%;
+}
+.mpu-button {
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+  color: #002142;
+  padding: 8px 40px;
+  text-decoration: none;
+  z-index: 3;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  transition: ease all 0.5s;
+}
+
+.mpu-button:hover {
+  transform: scale(1.05);
+  background-color: #194c80;
+  color: #ffffff;
+}
+
+/* SKYSCRAPER ADVERT   */
+
+.skyscraper {
+  background-color: #002142;
+  color: #ffffff;
+  height: 600px;
+  width: 120px;
+  position: relative;
+  display: flex;
+  padding: 0 15px;
+  overflow: hidden;
+}
+
+#skyscraper-logo {
+  width: 35px;
+  margin: 5px 0 15px 0;
+}
+
+#skyscraper-title h1 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+#skyscraper-title h2 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+#skyscraper-title p {
+  font-size: 14px;
+  margin: 20px 0;
+  line-height: 2;
+}
+
+.skyscraper-button {
+  position: absolute;
+  bottom: 8px;
+  right: 20px;
+
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+  color: #002142;
+  padding: 8px 40px;
+  text-decoration: none;
+  z-index: 3;
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  transition: ease all 0.5s;
+}
+
+.skyscraper-button:hover {
+  transform: scale(1.05);
+  background-color: #194c80;
+  color: #ffffff;
+}
+#img-3 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+#dots-3 {
+  position: absolute;
+  bottom: 38%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* MOBILE STICKY ADVERT   */
+
+.mobile {
+  background-color: #002142;
+  color: #ffffff;
+  height: 50px;
+  width: 320px;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+#mobile-logo {
+  width: 20px;
+}
+
+#mobile-title {
+  margin: 0 5px;
+}
+
+#mobile-title h1 {
+  font-size: 12px;
+  margin: 0;
+}
+#mobile-title h2 {
+  font-size: 12px;
+  margin: 0;
+}
+#mobile-title p {
+  font-size: 8px;
+  margin: 0;
+}
+
+.mobile-button {
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+  color: #002142;
+  padding: 4px 20px;
+  text-decoration: none;
+  z-index: 3;
+
+  font-size: 6px;
+  font-weight: 700;
+  letter-spacing: 1px;
+
+  transition: ease all 0.5s;
+}
+
+.mobile-button:hover {
+  transform: scale(1.05);
+  background-color: #194c80;
+  color: #ffffff;
+}
