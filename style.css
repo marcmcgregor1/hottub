@@ -40,6 +40,7 @@ h1 {
   font-style: italic;
   font-size: 30px;
   margin: 0;
+  transition: ease all 0.5s;
 }
 
 h2 {
@@ -49,6 +50,7 @@ h2 {
   -webkit-text-stroke: 1px #ffffff;
   color: transparent;
   margin: 0;
+  transition: ease all 0.5s;
 }
 
 p {
@@ -66,8 +68,18 @@ p {
   width: 970px;
   position: relative;
   display: flex;
+  transition: ease all 0.5s;
 }
 
+.billboard:hover h1 {
+  letter-spacing: 1px;
+  transition: ease all 0.5s;
+}
+
+.billboard:hover h2 {
+  color: #ffffff;
+  transition: ease all 0.5s;
+}
 #logo {
   margin: 15px;
 }
@@ -133,6 +145,17 @@ p {
   padding: 0 15px;
   position: relative;
   display: flex;
+  transition: ease all 0.5s;
+}
+
+.mpu:hover h1 {
+  transition: ease all 0.5s;
+  letter-spacing: 1.2px;
+}
+
+.mpu:hover h2 {
+  color: #ffffff;
+  letter-spacing: 1.6px;
 }
 
 .mpu h1 {
@@ -205,6 +228,15 @@ p {
   display: flex;
   padding: 0 15px;
   overflow: hidden;
+  transition: ease all 0.5s;
+}
+
+.skyscraper:hover h1 {
+  letter-spacing: 2px;
+}
+
+.skyscraper:hover h2 {
+  color: #ffffff;
 }
 
 #skyscraper-logo {
