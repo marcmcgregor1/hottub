@@ -311,9 +311,6 @@ p {
   display: flex;
   overflow: hidden;
 }
-#mobile-logo {
-  width: 20px;
-}
 
 #mobile-title {
   margin: 0 5px;
